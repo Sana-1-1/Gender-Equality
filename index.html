@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 5: Gender Equality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gender Equality</h1>
+        <nav>
+            <ul>
+                <li><u><a href="#awareness">Awareness</u></a></li>
+                <li><u><a href="#resources">Resources</u></a></li>
+                <li><u><a href="#quiz">Quiz</u></a></li>
+                <li><u><a href="#blog">Blog</u></a></li>
+                <li><u><a href="#stories">Success Stories</u></a></li>
+                <li><u><a href="#events">Events</u></a></li>
+                <li><u><a href="#faq">FAQ</u></a></li>
+                <li><u><a href="#contact">Contact</u></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="awareness">
+            <h2>Awareness</h2>
+            <div class="info-block">
+                <img src="https://i.pinimg.com/236x/5f/a0/79/5fa079d410b76ee06d8dea597eb55826.jpg" alt="Gender Equality" height="300" width="300">
+                <div class="text">
+                    <p>Gender equality is not only a fundamental human right but a necessary foundation for a peaceful, prosperous, and sustainable world. Providing women and girls with equal access to education, healthcare, decent work, and representation in political and economic decision-making processes fuels sustainable economies and benefits societies and humanity at large.</p>
+                    <p>Currently, gender inequality manifests in many areas, including violence against women and girls, unpaid care and domestic work, and limited access to education and employment opportunities.</p>
+                </div>
+            </div>
+            <div class="statistics">
+                <h3>Current Statistics</h3>
+                <ul>
+                    <li><b>1.</b> Women make up 39% of the global workforce.</li>
+                    <li><b>2.</b> 130 million girls are out of school worldwide.</li>
+                    <li><b>3.</b> 1 in 3 women experience physical or sexual violence.</li>
+                    <li><b>4.</b> Women spend about three times as many hours as men on unpaid domestic and care work.</li>
+                    <li><b>5.</b> Women and girls are 10% more likely to go hungry than men, but if female farmers had equal resources, 150 million people could be lifted out of hunger.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://www.unwomen.org/"> >> UN Women</a></li>
+                <li><a href="https://www.heforshe.org/">>> HeForShe</a></li>
+                <li><a href="https://www.girlsnotbrides.org/">>> Girls Not Brides</a></li>
+            </ul>
+        </section>
+        <section id="quiz">
+            <h2>Interactive Quiz</h2>
+            <button onclick="startQuiz()">Start Quiz</button>
+            <div id="quiz-container" style="display:none;">
+                <div id="question"></div>
+                <div id="answers"></div>
+                <button onclick="nextQuestion()">Next</button>
+            </div>
+            <div id="result" style="display:none;"></div>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Gender equality: why is it important?</h3>
+                <p>The unequal social relationships between women and men results in less effective policies, institutions and processes, and it means many people are left unable to reach their potential and are left out of making decisions and contributing to social change....</p>
+                <a href="https://www.sightsavers.org/blogs/2020/01/why-gender-equality-is-important/#:~:text=The%20unequal%20social%20relationships%20between,and%20contributing%20to%20social%20change." target="_blank">Read more</a>
+            </article>
+            
+        </section>
+        <section id="stories">
+            <h2>Success Stories</h2>
+            <div class="story">
+                <h3>Kiran mazumdar-shaw success story</h3>
+                <p>She started Biocon India in 1978 in the garage of her rented house in Bengaluru with a seed capital of Rs. 10,000. Although it was a joint venture, Indian laws restricted foreign ownership to only 30% of the company, which meant that 70% of the company belonged to Kiran Mazumdar Shaw....</p>
+                <a href="https://en.wikipedia.org/wiki/Kiran_Mazumdar-Shaw#:~:text=Beginning%20with%20enzymes,-After%20a%20brief&text=She%20started%20Biocon%20India%20in,belonged%20to%20Kiran%20Mazumdar%20Shaw." target="_blank">Read more</a>
+            </div>
+            
+        </section>
+        <section id="events">
+            <h2>Events / Webinars</h2>
+            <div class="event">
+                <h3>Webinar on gender equality</h3>
+                <p>This virtual dialogue focused on gender equality in the Open Science suite of activities....</p>
+                <a href="https://www.un.org/en/library/GenderOS" target="_blank">Learn more</a>
+            </div>
+            
+        </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is gender equality?</h3>
+                <p>Gender equality is the state in which access to rights or opportunities is unaffected by gender.</p>
+                <h3> How can gender equality be promoted?</h3>
+                <p>One way to promote gender equality is to empower women by identifying and addressing power imbalances and giving them more autonomy over their lives. This can help women make decisions and take actions to maintain their reproductive and sexual health.</p>
+                <h3>What are the benefits of gender equality?</h3>
+                <p>Gender equality can help prevent violence against women, improve the economy, and make communities safer and healthier.</p>
+            </div>
+            
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- <p>&copy; 2024 Gender Equality Initiative. All rights reserved.</p> -->
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
