@@ -1,0 +1,217 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #b9936c;
+    background: #e6e2d3;
+}
+
+/* Header styles */
+header {
+    background: #dac292;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #b9936c;
+    font-size: 2rem;
+}
+
+/* Info block styles */
+.info-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-block img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.info-block .text {
+    flex: 1;
+}
+
+/* Statistics styles */
+.statistics h3 {
+    color: #b9936c;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.statistics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statistics ul li {
+    background: #c4b7a6;
+    color: black;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Resources styles */
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources ul li {
+    background: #c4b7a6;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#resources ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Quiz styles */
+#quiz {
+    text-align: center;
+}
+
+#quiz button {
+    background: #dac292;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#quiz-container {
+    margin-top: 1rem;
+}
+
+#quiz-container button {
+    background: #dac292;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Blog, Stories, Events, FAQ styles */
+#blog article, .story, .event, .faq-item {
+    background: #c4b7a6;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#blog article h3, .story h3, .event h3, .faq-item h3 {
+    color: black;
+    margin-top: 0;
+}
+
+#blog article a, .story a, .event a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contact Form styles */
+#contact-form {
+    background-color: #333;
+    color: #c4b7a6;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact-form label {
+    margin-top: 1rem;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 5px solid brown;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #a79e84;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact-form button {
+    background: #b9936c;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#contact-form button:hover {
+    background: #b9936c;
+}
+
+/* Footer styles */
+/* footer {
+    background: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
+p { 
+   color:brown;
+}
